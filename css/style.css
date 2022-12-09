@@ -213,10 +213,7 @@ header .navbar .nav-item {
     float: left; /* stack each div horizontally */
 }
 
-img
-{
-   border-radius: 10px;
-}
+
 
 .back h2
 {
@@ -276,4 +273,49 @@ img
     transform: perspective(600px) rotateY(0deg);
 }
 
+ body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
   
+.bord{
+    border-bottom: 2px solid rgba(255, 236, 236, 0.1);
+    border-spacing: 2px;
+}
+.offer-img{
+    overflow: hidden;
+}
+.offer-img img{
+    width:150% ;
+    transition: all 1s ease;
+    
+
+}
+.offer-img img:hover{
+    transform: scale(1.3);
+    opacity: 0.5;
+}
+
+.stats1{
+    padding: 100px 0;
+    color: rgb(194, 186, 186);
+    text-align: center;
+    
+}
+.stats1 .num {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.stats1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+.stats{
+    
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+   
+}
